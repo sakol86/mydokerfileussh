@@ -1,4 +1,7 @@
-                                                          Установка VPN Wiregurad с интерфейсом​
+                                                          Установка VPN Wiregurad с интерфейсом
+                                                          
+                                                          
+Копируем в блокнот команду:
 
 docker run -d \
   --name=wg-easy \
@@ -14,14 +17,13 @@ docker run -d \
   --restart unless-stopped \
   weejewel/wg-easy
 
-
-                                                          Должно получиться так:
-                                                          
-![image](https://user-images.githubusercontent.com/86907205/213125523-2a75e572-a439-40ad-8936-e0f06330a6d0.png)
-
-
 Вместо "YOUR_SERVER_IP" пишем ваш IP-адрес сервера.
 Вместо "YOUR_ADMIN_PASSWORD" пишем пароль, который вы хотите использовать для входа в веб-интерфейс своего VPN.
+
+
+                                          Копируем это все из блокнота и вставляем правой кнопкой мыши в наш терминал. Должно получиться так:
+                                                          
+![image](https://user-images.githubusercontent.com/86907205/213125523-2a75e572-a439-40ad-8936-e0f06330a6d0.png)
 
 
 
