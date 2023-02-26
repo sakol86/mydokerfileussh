@@ -4,7 +4,7 @@
                                  Перед выполнением действий в терминале, нужно установить докер на сервере!
                                                           
 Копируем в блокнот команду:
-
+---
 docker run -d \
   --name=wg-easy \
   -e WG_HOST=YOUR_SERVER_IP \
@@ -18,7 +18,7 @@ docker run -d \
   --sysctl="net.ipv4.ip_forward=1" \
   --restart unless-stopped \
   weejewel/wg-easy
-
+---
 Вместо "YOUR_SERVER_IP" пишем ваш IP-адрес сервера.
 Вместо "YOUR_ADMIN_PASSWORD" пишем пароль, который вы хотите использовать для входа в веб-интерфейс своего VPN.
 
